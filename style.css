@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.chat-container{
+    display: block;
+}
+#form{
+    display: none;
+}
+.chatRoom-Header{
+    font-size: 2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 85vh;
+}
+.message{
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+}
+.sent{
+    align-self: flex-end;
+}
+#message-input{
+    width: 90vw;
+    margin: 0.3rem;
+    padding: 0.4rem;
+    background-color: #3c504e;
+    color: rgb(9, 9, 9);
+    font-size: 17px;
+}
+#send-button{
+    width: 6vw;
+    padding: 0.4rem;
+    background-color: #0cad5a;
+    font-weight: 600;
+    font-size: 17px;
+}
