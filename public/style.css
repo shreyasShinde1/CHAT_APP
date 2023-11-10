@@ -3,10 +3,11 @@ body{
     padding: 0;
 }
 .chat-container{
-    display: block;
+    display: none;
 }
 #form{
-    display: none;
+    display: block;
+    margin: 20px;
 }
 .chatRoom-Header{
     font-size: 2rem;
@@ -19,7 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: aqua;
-    height: 85vh;
+    height: 83vh;
 }
 .message{
     background-color: aquamarine;
@@ -39,7 +40,7 @@ body{
     color: rgb(9, 9, 9);
     font-size: 17px;
 }
-#send-button{
+#sentBtn{
     width: 6vw;
     padding: 0.4rem;
     background-color: #0cad5a;
